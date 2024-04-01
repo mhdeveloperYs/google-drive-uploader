@@ -71,6 +71,5 @@
                 "GoogleDriveUploader": "MhdeveloperYs\\GoogleDriveUploader\\Facades\\GoogleDriveUploader"
             }
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
