@@ -6,11 +6,6 @@
         "laravel",
         "google-drive-uploader"
     ],
-    "homepage": "https://github.com/mhdeveloperys/google-drive-uploader",
-    "support": {
-        "issues": "https://github.com/mhdeveloperys/google-drive-uploader/issues",
-        "source": "https://github.com/mhdeveloperys/google-drive-uploader"
-    },
     "license": "MIT",
     "authors": [
         {
