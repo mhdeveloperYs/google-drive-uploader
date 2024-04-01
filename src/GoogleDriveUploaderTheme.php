@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace MhdeveloperYs\GoogleDriveUploader;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
@@ -8,17 +8,17 @@ use Filament\Support\Assets\Theme;
 use Filament\Support\Color;
 use Filament\Support\Facades\FilamentAsset;
 
-class Skeleton implements Plugin
+class GoogleDriveUploader implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'google-drive-uploader';
     }
 
     public function register(Panel $panel): void
     {
         FilamentAsset::register([
-            Theme::make('skeleton', __DIR__ . '/../resources/dist/skeleton.css'),
+            Theme::make('google-drive-uploader', __DIR__ . '/../resources/dist/google-drive-uploader.css'),
         ]);
 
         $panel
@@ -29,7 +29,7 @@ class Skeleton implements Plugin
             ->dangerColor(Color::Rose)
             ->successColor(Color::Green)
             ->grayColor(Color::Gray)
-            ->theme('skeleton');
+            ->theme('google-drive-uploader');
     }
 
     public function boot(Panel $panel): void

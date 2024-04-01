@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "mhdeveloperys/google-drive-uploader",
+    "description": "This is my package google-drive-uploader",
     "keywords": [
-        ":vendor_name",
+        "mhdeveloperYs",
         "laravel",
-        ":package_slug"
+        "google-drive-uploader"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/mhdeveloperys/google-drive-uploader",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/mhdeveloperys/google-drive-uploader/issues",
+        "source": "https://github.com/mhdeveloperys/google-drive-uploader"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "MHDeveloper",
+            "email": "mhdeveloper98@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
     "require-dev": {
@@ -41,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "MhdeveloperYs\\GoogleDriveUploader\\": "src/",
+            "MhdeveloperYs\\GoogleDriveUploader\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "MhdeveloperYs\\GoogleDriveUploader\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "MhdeveloperYs\\GoogleDriveUploader\\GoogleDriveUploaderServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "GoogleDriveUploader": "MhdeveloperYs\\GoogleDriveUploader\\Facades\\GoogleDriveUploader"
             }
         }
     },
